@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portofolio.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="image/logo.png">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Portofolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="header">
+        <!-- <img src="image/kiwi.jpg"> -->
+        <h1>Belajar selector CSS </h1>
+        <i>UTS Ganjil 2022/2023 akan dilaksanakan antara tanggal 14 s/d 26
+        November 2022 Secara Full Offline</i>
+    </section>
+    <div class="container">
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('orange')"> orange</button>
+            <button class="btn" onclick="filterSelection('strawberry')"> strawberry</button>
+            <button class="btn" onclick="filterSelection('banana')"> banana</button>
+            <!-- <button class="btn" onclick="filterSelection('colors')"> Colors</button> -->
+        </div>
+        
+        <center>
+            <table>
+                <tr>
+                    <td class="card orange">
+                        <img src="image/orange.jpg" alt="">
+                        <p><b>Orange</b></p>
+                        <p>Sweet & Sour</p>
+                    </td>
+                    <td class="card strawberry">
+                        <img src="image/strawberry.jpg" alt="">
+                        <p><b>Orange</b></p>
+                        <p>Sweet & Sour</p>
+                    </td>
+                    <td class="card banana">
+                        <img src="image/banana.jpg" alt="">
+                        <p><b>Orange</b></p>
+                        <p>Sweet & Sour</p>
+                    </td>
+                </tr>
+                
+            </table>
+        </center>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
